@@ -2,10 +2,15 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #1f2937;
 }
 #grad {
-  height: 1000px;
-  background-image: linear-gradient(to left, #ffd966, #97d077);
+  width: 550px;
+  height: 260px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
 }
 h1 {
   position: absolute;
@@ -24,7 +29,7 @@ h1 {
   text-align: center;
   letter-spacing: -0.05em;
 
-  color: #050202;
+  color: #ffffff;
 }
 
 h2 {
@@ -32,7 +37,7 @@ h2 {
   width: 211px;
   height: 51.23px;
   left: 169px;
-  top: 155px;
+  top: 120px;
 
   font-family: "Inter";
   font-style: normal;
@@ -43,5 +48,42 @@ h2 {
 
   text-align: center;
 
-  color: #050202;
+  color: #ffffff;
+}
+.length {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  left: 102px;
+  top: 297px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.length-calc {
+  position: absolute;
+  width: 346px;
+  height: 25px;
+  left: 102px;
+  top: 327px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #d2d2d2;
 }
